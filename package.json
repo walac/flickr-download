@@ -1,0 +1,26 @@
+{
+  "name": "flickr-download",
+  "version": "1.0.0",
+  "description": "Small script to download my photos from flickr",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walac/flickr-download.git"
+  },
+  "author": "Wander Lairson Costa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/walac/flickr-download/issues"
+  },
+  "homepage": "https://github.com/walac/flickr-download#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "flickr-sdk": "^3.8.0",
+    "got": "^9.6.0",
+    "promise-retry": "^1.1.1",
+    "rimraf": "^2.6.3"
+  }
+}
